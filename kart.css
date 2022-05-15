@@ -1,0 +1,235 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(67, 67, 234);
+    width: 100%;
+    height: 50px;
+}
+
+.headerleft
+{  position: relative;
+    width: 25%;
+    height: 30px; ;
+    text-align: right;
+    cursor: pointer;
+    margin: 5px 0px;
+}
+.headerleft a{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+}
+.headerleft p a
+{   color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 25px;
+    right: 38px;
+    
+    
+}
+.headerleft p span
+{
+    color: yellow;
+    font-size: 15px;
+    font-style: italic;
+    position: absolute;
+    top:25px;
+    right: 10px;
+
+    
+}
+.headerleft p i
+{
+    top: 30px;
+    position: absolute;
+    top: 25px;
+    right: 1px;
+    color: yellow;
+}
+.headercenter
+{
+    width: 40%;
+    text-align: left;
+    line-height: 50px;
+    cursor: pointer;
+    padding-left:10px ;
+    position: relative;
+
+}
+.headercenter input{
+height: 36px;
+width: 100%;
+text-align: left;
+padding-left: 20px;
+cursor: pointer;
+}
+
+.headercenter i
+{
+position: absolute;
+top:33%;
+left: 99%;
+font-size: 18px;
+}
+
+
+.headerright
+{
+    position: relative;
+    top: 15px;
+    left: 35px;
+    
+    width:200px;
+    font-size: 15px;
+    display: flex;
+    justify-content: start;
+    
+}
+
+.headerright a{
+    color: white;
+    margin: 0px 20px;
+    text-decoration: none;
+    
+}
+ .row1
+ {  position: relative;
+     display: flex;
+     justify-content: space-evenly;
+     width: 100%;
+     
+     text-align: center;
+ }
+ .colum{
+     cursor: pointer;
+ }
+ .row2{
+
+    width: 100%;
+    height: 254px;
+    background-repeat: no-repeat;
+    background-image: url("background\ flip.webp");
+    background-size: contain;
+    background-color: black;
+    
+ }
+ .commonheading
+ {
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     margin-top: 20px;
+     padding: 5px 0px;
+ }
+ .commonheadingleft
+ {
+     margin-left: 20px;
+ }
+ .commonheadingright button
+ {
+     
+     width: 60px;
+     height:30px ;
+     font-size: 10px;
+    background-color: blue; 
+    color: white;
+    border: none;
+    cursor: pointer;
+ }
+
+ .common-row
+ {
+     display: flex;
+     justify-content: space-evenly;
+     width: 100%;
+     min-height: 250px;
+     margin:10px 0px;
+ }
+ .common-colum
+ {
+     line-height: 20px;
+     text-align: center;
+     cursor: pointer;
+ }
+ .common-colum img
+ {
+     width: 120px;
+     height: 100px;
+ }
+ .common-colum h5
+ {
+     color: green;
+ }
+ .top
+ {
+     color: rgb(99, 95, 95);
+ }
+ .top span{
+     color: black;
+ }
+.search
+{
+    
+    width: 100%;
+    height: 30px;
+    
+}
+.search a{
+    
+    text-decoration: none;
+    font-size: smaller;
+}
+
+.para
+{
+    font-size: smaller;
+    color: darkgrey;
+}
+     
+.footerrow
+{ 
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 250px;
+    background-color: rgb(12, 12, 43);
+} 
+
+.footercolum
+{
+    margin: 0px;
+    
+}
+.footerheading p{
+    
+    margin-top: 5px;
+    color: rgb(213, 206, 206);
+    font-size: medium;
+    font-weight:normal;
+    
+}
+.footerlist a{
+   color : aliceblue;
+    text-decoration: none;
+}
+.footerlist p
+{    margin-top: -10px;
+    color : aliceblue;
+    
+    
+
+}
+ 
+
+
+
